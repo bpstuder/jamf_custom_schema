@@ -8,4 +8,5 @@ Used to manage the notifications settings.
 Used to manage the NoMAD settings.
 
 All parameters can be found here : https://nomad.menu/help/preferences-and-what-they-do/
+
 Original creator : https://github.com/Jamf-Custom-Profile-Schemas/mscottblake-schemas
