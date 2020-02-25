@@ -1,0 +1,106 @@
+{
+	"title": "com.apple.notificationsettings",
+    "description": "Catalina Notification Settings",
+    "__version": "1.0",
+    "__feedback": "bpstuder@gmail.com",
+    "type": "object",
+    "options": {
+        "remove_empty_properties": true
+    },
+	"properties": {
+        "BundleIdentifier": {
+            "title": "BundleIdentifier",
+            "description": "(Required) The bundle identifier of the app to which to apply these notification settings.",
+            "property_order": 5,
+            "type": "string"
+        },
+        "NotificationsEnabled": {
+            "title": "NotificationsEnabled",
+            "description": "If true, enables notifications for this app.",
+            "property_order": 10,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "SoundsEnabled": {
+            "title": "SoundsEnabled",
+            "description": "If true, enables sounds for this app.",
+            "property_order": 15,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "AlertType": {
+            "title": "AlertType",
+            "description": "The type of alert for notifications for this app",
+            "property_order": 20,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "integer",
+                    "options": {
+                        "enum_titles": ["None", "Banners", "Alert"]
+                    },
+                    "enum": [0,1,2]
+                }
+            ]
+        },
+        "BadgesEnabled": {
+            "title": "BadgesEnabled",
+            "description": "If true, enables badges for this app.",
+            "property_order": 25,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "ShowInLockScreen": {
+            "title": "ShowInLockScreen",
+            "description": "If true, enables notifications on the lock screen for this app.",
+            "property_order": 30,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "ShowInNotificationCenter": {
+            "title": "ShowInNotificationCenter",
+            "description": "If true, enables notifications in the notification center for this app.",
+            "property_order": 35,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "CriticalAlertEnabled": {
+            "title": "CriticalAlertEnabled",
+            "description": "If true, enables critical alerts that can ignore Do Not Disturb",
+            "property_order": 40,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        }
+	}
+}
