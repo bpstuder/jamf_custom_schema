@@ -2,7 +2,6 @@
     "title": "com.apple.notificationsettings",
     "description": "Catalina Notification Settings",
     "__version": "1.0",
-    "__feedback": "bpstuder@gmail.com",
     "type": "object",
     "options": {
         "remove_empty_properties": true
