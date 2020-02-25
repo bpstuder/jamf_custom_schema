@@ -2,7 +2,7 @@
 Custom schemas for JAMF Pro
 
 ## com.apple.notificationsettings.json
-Used to manage the notifications settings.
+Used to manage the notifications settings in Catalina.
 
 ## com.trusourcelabs.NoMAD.json
 Used to manage the NoMAD settings.
