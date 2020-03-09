@@ -1,0 +1,126 @@
+{
+    "title": "us.zoom.config",
+    "description": "",
+    "properties": {
+        "ZUse720PByDefault": {
+            "title": "ZUse720PByDefault",
+            "description": "",
+            "property_order": 5,
+            "anyOf": [
+                {
+                    "type": "null",
+                    "title": "Not Configured"
+                },
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "ZAutoSSOLogin": {
+            "title": "ZAutoSSOLogin",
+            "description": "Must be YES or NO",
+            "property_order": 10,
+            "anyOf": [
+                {
+                    "type": "null",
+                    "title": "Not Configured"
+                },
+                {
+                    "title": "Configured",
+                    "type": "string"
+                }
+            ]
+        },
+        "ZAutoFullScreenWhenViewShare": {
+            "title": "ZAutoFullScreenWhenViewShare",
+            "description": "",
+            "property_order": 15,
+            "anyOf": [
+                {
+                    "type": "null",
+                    "title": "Not Configured"
+                },
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "ZAutoUpdate": {
+            "title": "ZAutoUpdate",
+            "description": "",
+            "property_order": 20,
+            "anyOf": [
+                {
+                    "type": "null",
+                    "title": "Not Configured"
+                },
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "nogoogle": {
+            "title": "nogoogle",
+            "description": "1 for true 0 for false",
+            "property_order": 25,
+            "anyOf": [
+                {
+                    "type": "null",
+                    "title": "Not Configured"
+                },
+                {
+                    "title": "Configured",
+                    "type": "integer"
+                }
+            ]
+        },
+        "DisableLoginWithEmail": {
+            "title": "DisableLoginWithEmail",
+            "description": "1 for true 0 for false",
+            "property_order": 30,
+            "anyOf": [
+                {
+                    "type": "null",
+                    "title": "Not Configured"
+                },
+                {
+                    "title": "Configured",
+                    "type": "integer"
+                }
+            ]
+        },
+        "ZSSOHost": {
+            "title": "ZSSOHost",
+            "description": "",
+            "property_order": 35,
+            "anyOf": [
+                {
+                    "type": "null",
+                    "title": "Not Configured"
+                },
+                {
+                    "title": "Configured",
+                    "type": "string"
+                }
+            ]
+        },
+        "nofacebook": {
+            "title": "nofacebook",
+            "description": "1 for true 0 for false",
+            "property_order": 40,
+            "anyOf": [
+                {
+                    "type": "null",
+                    "title": "Not Configured"
+                },
+                {
+                    "title": "Configured",
+                    "type": "integer"
+                }
+            ]
+        }
+    }
+}
